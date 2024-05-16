@@ -1,8 +1,23 @@
-# React + Vite
+# Car Doctor
+Welcome to Car Doctor! This web application allows users to search for and manage car services and bookings effortlessly.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Site](https://car-doctor-4f8b8.web.app)
 
-Currently, two official plugins are available:
+# Features
+- **User Authentication**: Secure user authentication using Firebase Authentication.
+- **Personalized Experience**: Users can create an account, save their service bookings, track service history, and receive personalized recommendations.
+- **Private Routes**: Protected routes that ensure only authenticated users can access certain pages, such as booking and profile management.
+- **Service Booking**: Users can browse through a collection of car services, view detailed descriptions, and book services easily.
+- **Manage Bookings**: Users can view and manage their bookings efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Technologies Used
+- **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express**: Fast, unopinionated, minimalist web framework for Node.js.
+- **MongoDB**: NoSQL database for storing user data and bookings.
+- **Firebase Authentication**: Authentication system for secure user management.
+- **CORS**: Middleware to enable Cross-Origin Resource Sharing.
+- **dotenv**: Module to load environment variables from a .env file.
+- **morgan**: HTTP request logger middleware for Node.js.
+
+

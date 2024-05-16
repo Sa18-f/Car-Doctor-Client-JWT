@@ -25,8 +25,8 @@ const BookingService = () => {
             price: price
         }
 
-        console.log(booking);
-        fetch('http://localhost:5000/bookings', {
+        // console.log(booking);
+        fetch('https://car-doctor-server-pi-black.vercel.app/bookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -35,7 +35,7 @@ const BookingService = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 if (data.insertedId) {
                     Swal.fire({
                         title: "Success",

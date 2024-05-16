@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect } from "react";
 
 const axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000',
+    baseURL: 'https://car-doctor-server-pi-black.vercel.app',
     withCredentials: true
 })
 const useAxiosSecure = () => {
